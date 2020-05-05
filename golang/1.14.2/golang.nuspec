@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+      <id>golang</id>
+      <owners>xoviat</owners>
+      <version>1.14.2</version>
+      <title>Go Programming Language</title>
+      <authors>Robert Griesemer Rob Pike Ken Thompson</authors>
+      <projectUrl>https://golang.org/</projectUrl>
+      <tags>golang go progamming-language language</tags>
+      <summary>The Go programming language is an open source project to make programmers more productive.</summary>
+      <description>Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It&#39;s a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.</description>
+      <releaseNotes>Release notes for Go are available at https://golang.org/doc/devel/release.html</releaseNotes>
+      <packageSourceUrl>https://bitbucket.org/xoviat/chocolatey-packages</packageSourceUrl>
+      <docsUrl>https://golang.org/doc</docsUrl>
+      <iconUrl>https://bbcdn.githack.com/xoviat/chocolatey-packages/raw/master/golang/icons/1ac8d7134fc90e2c8e461cf77cf03d245ed98ef692d05840c3f8e7add1449990.png</iconUrl>
+      <bugTrackerUrl>https://golang.org/issue</bugTrackerUrl>
+      <dependencies></dependencies>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
